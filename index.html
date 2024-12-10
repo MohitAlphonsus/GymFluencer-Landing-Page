@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- main stylesheet -->
+		<link rel="stylesheet" href="styles/style.css" />
+		<!-- ion-icons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+			defer
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+			defer
+		></script>
+
+		<!-- main script -->
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<!-- navbar -->
+			<nav class="navbar">
+				<a href="#" class="navbar__logo"
+					><span class="text-primary">Gym</span>Fluencer</a
+				>
+				<ul class="navbar__links">
+					<li><a href="#" class="navbar__link">Home</a></li>
+					<li><a href="#" class="navbar__link">About</a></li>
+					<li><a href="#" class="navbar__link">Programs</a></li>
+					<li><a href="#" class="navbar__link">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="header__text-box">
+				<h1>
+					Transform Your Body,<br />
+					Transform Your Life
+				</h1>
+				<p>
+					State-of-the-art equipment, expert trainers, and a supportive
+					community.
+				</p>
+				<button class="btn btn--primary mt-md">
+					Start Your Transformation!
+				</button>
+			</div>
+		</header>
+
+		<!-- section About -->
+		<section class="section-about">
+			<div class="container">
+				<div class="about-grid">
+					<div class="section-about__text">
+						<h2 class="heading-secondary">About Us</h2>
+						<span class="mt-md">Redefining Fitness – One Goal at a Time</span>
+						<p>
+							We believe fitness is more than just working out—it's a
+							lifestyle.Our facility is designed to inspire, motivate, and
+							empower individuals of all fitness levels.
+						</p>
+						<p>
+							Our mission is simple: to help you become the best version of
+							yourself. We believe that with the right guidance, tools, and
+							determination, anyone can achieve their fitness goals.
+						</p>
+						<button class="btn btn--secondary mt-sm">
+							Book Your Free Session!
+						</button>
+					</div>
+					<div class="section-about__img" role="image"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-courses">
+			<h2 class="heading-secondary">Programs That Deliver Results</h2>
+			<p>
+				From strength training to yoga, we’ve got the perfect course for every
+				fitness journey.
+			</p>
+			<div class="container">
+				<div class="courses">
+					<figure>
+						<img
+							src="/assets/courses/01-strength-training.jpg"
+							alt="image of weight lifting"
+						/>
+						<figcaption>Strength Training</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="/assets/courses/02-cardio.jpg"
+							alt="image of man doing a cardio training"
+						/>
+						<figcaption>Cardio & Endurance</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="/assets/courses/03-yoga.jpg"
+							alt="image of lady doing a yoga"
+						/>
+						<figcaption>Yoga & Flexibility</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="/assets/courses/04-hiit.jpg"
+							alt="image of rope training"
+						/>
+						<figcaption>HIIT & Functional Training</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="/assets/courses/05-personal-training.jpg"
+							alt="image of personal trainer teaching"
+						/>
+						<figcaption>Personal Training</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="/assets/courses/06-group-fitness-classes.jpg"
+							alt="image of women doing excercies in group"
+						/>
+						<figcaption>Group Fitness Classes</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-pricing">
+			<h2 class="heading-secondary">Pricing Plans That Fit Your Goals</h2>
+			<div class="container">
+				<div class="pricing">
+					<!-- basic -->
+					<div class="pricing__card">
+						<span class="pricing__title">Basic</span>
+						<p class="pricing__price">
+							<span>$</span>
+							<span>24</span>
+							/month
+						</p>
+						<p class="pricing__subtitle">
+							Those who want to establish a routine.
+						</p>
+						<ul class="pricing__list">
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon>
+								<span>Weekdays, 9 AM–5 PM</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon>
+								<span>Free orientation session</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>Access to group classes</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>Locker access</span>
+							</li>
+							<li>
+								<ion-icon name="close-outline" class="pricing__icon"></ion-icon>
+							</li>
+						</ul>
+						<button class="btn btn--secondary">Get Started</button>
+					</div>
+
+					<!-- standard -->
+					<div class="pricing__card pricing__card--popular">
+						<span class="pricing__title">Standard</span>
+						<p class="pricing__price">
+							<span>$</span>
+							<span>49</span>
+							/month
+						</p>
+						<p class="pricing__subtitle">
+							Those who want flexibility and variety.
+						</p>
+						<ul class="pricing__list">
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon>
+								<span>Unlimited gym access</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon>
+								<span>Access to group classes</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>One personal training session</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>Wellness assessment</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>Special Discounts</span>
+							</li>
+						</ul>
+						<button class="btn btn--secondary">Train With Experts</button>
+					</div>
+
+					<!-- premium -->
+					<div class="pricing__card">
+						<span class="pricing__title">Premium</span>
+						<p class="pricing__price">
+							<span>$</span>
+							<span>79</span>
+							/month
+						</p>
+						<p class="pricing__subtitle">Serious fitness seekers.</p>
+						<ul class="pricing__list">
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon>
+								<span>All Standard benefits</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon>
+								<span>Personal training sessions</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>personal training sessions</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>Priority booking</span>
+							</li>
+							<li>
+								<ion-icon
+									name="checkmark-outline"
+									class="pricing__icon"
+								></ion-icon
+								><span>Free merchandise</span>
+							</li>
+						</ul>
+						<button class="btn btn--secondary">Go Premium</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- BMI -->
+		<section class="section-BMI">
+			<div class="BMI">
+				<h2 class="heading-secondary" id="BMI-heading">
+					Calculate <span class="text-primary">Your BMI</span>
+				</h2>
+				<p>
+					The Body Mass Index (BMI) calculator calculates body mass index from
+					your weight and height
+				</p>
+				<form id="BMI-form">
+					<input type="number" placeholder="Height in cm" id="BMI-height" />
+					<input type="number" placeholder="Weight in kg" id="BMI-weight" />
+					<button class="btn btn--primary">Calculate</button>
+				</form>
+			</div>
+		</section>
+
+		<!-- footer -->
+		<footer class="footer">
+			Copyright &copy; <span id="year"></span> GymFluencer, All Rights Reserved.
+		</footer>
+	</body>
+</html>
